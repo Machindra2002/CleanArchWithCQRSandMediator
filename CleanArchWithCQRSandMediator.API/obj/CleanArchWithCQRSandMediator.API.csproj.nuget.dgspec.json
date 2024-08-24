@@ -1,0 +1,291 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.API.csproj": {}
+  },
+  "projects": {
+    "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.API.csproj",
+        "projectName": "CleanArchWithCQRSandMediator.API",
+        "projectPath": "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.API.csproj",
+        "packagesPath": "C:\\Users\\Shree\\.nuget\\packages\\",
+        "outputPath": "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shree\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.Application\\CleanArchWithCQRSandMediator.Application.csproj": {
+                "projectPath": "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.Application\\CleanArchWithCQRSandMediator.Application.csproj"
+              },
+              "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.Infrastructure\\CleanArchWithCQRSandMediator.Infrastructure.csproj": {
+                "projectPath": "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.Infrastructure\\CleanArchWithCQRSandMediator.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.Application\\CleanArchWithCQRSandMediator.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.Application\\CleanArchWithCQRSandMediator.Application.csproj",
+        "projectName": "CleanArchWithCQRSandMediator.Application",
+        "projectPath": "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.Application\\CleanArchWithCQRSandMediator.Application.csproj",
+        "packagesPath": "C:\\Users\\Shree\\.nuget\\packages\\",
+        "outputPath": "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shree\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.Domain\\CleanArchWithCQRSandMediator.Domain.csproj": {
+                "projectPath": "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.Domain\\CleanArchWithCQRSandMediator.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.Domain\\CleanArchWithCQRSandMediator.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.Domain\\CleanArchWithCQRSandMediator.Domain.csproj",
+        "projectName": "CleanArchWithCQRSandMediator.Domain",
+        "projectPath": "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.Domain\\CleanArchWithCQRSandMediator.Domain.csproj",
+        "packagesPath": "C:\\Users\\Shree\\.nuget\\packages\\",
+        "outputPath": "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shree\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.Infrastructure\\CleanArchWithCQRSandMediator.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.Infrastructure\\CleanArchWithCQRSandMediator.Infrastructure.csproj",
+        "projectName": "CleanArchWithCQRSandMediator.Infrastructure",
+        "projectPath": "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.Infrastructure\\CleanArchWithCQRSandMediator.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Shree\\.nuget\\packages\\",
+        "outputPath": "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shree\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.Application\\CleanArchWithCQRSandMediator.Application.csproj": {
+                "projectPath": "G:\\ADONET\\CleanArchWithCQRSandMediator.API\\CleanArchWithCQRSandMediator.Application\\CleanArchWithCQRSandMediator.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
